@@ -1,113 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="927b571d-05b9-4ffb-8a0a-b3462f258620" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__antlr_antlr_2_7_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__ch_qos_logback_logback_classic_1_1_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__ch_qos_logback_logback_core_1_1_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_alibaba_druid_1_0_29.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_classmate_1_3_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_8_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_8_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jayway_jsonpath_json_path_2_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__dom4j_dom4j_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_transaction_javax_transaction_api_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_validation_validation_api_1_1_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__mysql_mysql_connector_java_5_1_41.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_minidev_accessors_smart_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_minidev_json_smart_2_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_activemq_activemq_broker_5_14_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_activemq_activemq_client_5_14_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_activemq_activemq_openwire_legacy_5_14_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_geronimo_specs_geronimo_j2ee_management_1_1_spec_1_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_geronimo_specs_geronimo_jms_1_1_spec_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_core_8_5_14.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_el_8_5_14.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_14.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_tomcat_tomcat_jdbc_8_5_14.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_tomcat_tomcat_juli_8_5_14.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_aspectj_aspectjweaver_1_8_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_assertj_assertj_core_2_6_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_freemarker_freemarker_2_3_26_incubating.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_fusesource_hawtbuf_hawtbuf_1_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hibernate_hibernate_core_5_0_12_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hibernate_hibernate_entitymanager_5_0_12_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hibernate_hibernate_validator_5_3_5_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_javassist_javassist_3_21_0_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jboss_jandex_2_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jboss_logging_jboss_logging_3_3_1_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mockito_mockito_core_1_10_19.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_objenesis_objenesis_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_5_0_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_skyscreamer_jsonassert_1_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_jcl_over_slf4j_1_7_25.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_jul_to_slf4j_1_7_25.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_log4j_over_slf4j_1_7_25.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_api_1_7_25.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_1_5_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_autoconfigure_1_5_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_1_5_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_activemq_1_5_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_aop_1_5_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_data_jpa_1_5_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_freemarker_1_5_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_jdbc_1_5_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_logging_1_5_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_test_1_5_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_tomcat_1_5_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_validation_1_5_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_web_1_5_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_1_5_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_autoconfigure_1_5_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_data_spring_data_commons_1_13_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_data_spring_data_jpa_1_11_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_aop_4_3_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_aspects_4_3_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_beans_4_3_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_context_4_3_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_context_support_4_3_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_core_4_3_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_expression_4_3_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_jdbc_4_3_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_jms_4_3_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_messaging_4_3_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_orm_4_3_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_test_4_3_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_tx_4_3_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_web_4_3_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_webmvc_4_3_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_yaml_snakeyaml_1_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/Configuration-Center-Server.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/Configuration-Center-Server_main.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/Configuration-Center-Server_test.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/configuration-center-server.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradlew.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/xzfm/ConfigurationCenterServerApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/xzfm/monitor/EnableDataMonitor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/xzfm/monitor/datasource/DataSourceFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/xzfm/monitor/datasource/DruidInterceptorFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/xzfm/monitor/datasource/DruidProperties.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/xzfm/monitor/datasource/DruidStatFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/xzfm/monitor/datasource/DruidStatViewServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/xzfm/monitor/datasource/SpringMonitor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/xzfm/ConfigurationCenterServerApplicationTests.java" />
-    </list>
+    <list default="true" id="451ff89b-76db-4751-be5f-d1806d4cb988" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -126,30 +20,47 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view>
-          <tree_state>
-            <PATH>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="" />
-                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
-              </PATH_ELEMENT>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="Configuration-Center-Server" />
-                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
-              </PATH_ELEMENT>
-            </PATH>
-          </tree_state>
-        </projects_view>
+        <projects_view />
       </state>
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
+      <file leaf-file-name="DataSourceFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xzfm/monitor/datasource/DataSourceFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-342">
+              <caret line="19" column="59" lean-forward="false" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DruidStatViewServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xzfm/monitor/datasource/DruidStatViewServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DruidStatFilter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xzfm/monitor/datasource/DruidStatFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ConfigurationCenterServerApplication.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/xzfm/ConfigurationCenterServerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="124">
+              <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -159,17 +70,9 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>beanPostProcessors</find>
-      <find>9000</find>
-      <find>900</find>
-      <find>90</find>
-      <find>9</find>
-      <find>8</find>
-      <find>8080</find>
+      <find>spring.datasource.driver-class-name</find>
+      <find>spring.datasource.username</find>
     </findStrings>
-    <dirStrings>
-      <dir>$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba/druid/1.0.29/4acf3e5be445b9a6970a5497592e5f69b22c41e3/druid-1.0.29.jar!/com</dir>
-    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -180,62 +83,47 @@
         <project path="$PROJECT_DIR$">
           <extensions>
             <ext name="ext" type="org.gradle.api.internal.plugins.DefaultExtraPropertiesExtension" />
-            <ext name="announce" type="org.gradle.api.plugins.announce.AnnouncePluginExtension" />
             <ext name="defaultArtifacts" type="org.gradle.api.internal.plugins.DefaultArtifactPublicationSet" />
             <ext name="reporting" type="org.gradle.api.reporting.ReportingExtension" />
+            <ext name="sources" type="org.gradle.language.base.internal.DefaultProjectSourceSet" objectType="org.gradle.language.base.internal.DefaultFunctionalSourceSet" />
+            <ext name="binaries" type="org.gradle.platform.base.internal.DefaultBinaryContainer" objectType="org.gradle.api.internal.jvm.DefaultClassDirectoryBinarySpec" />
             <ext name="springBoot" type="org.springframework.boot.gradle.SpringBootPluginExtension" />
             <ext name="dependencyManagement" type="io.spring.gradle.dependencymanagement.internal.dsl.StandardDependencyManagementExtension" />
             <prop name="BootRepackage" type="java.lang.Class" />
             <prop name="springBootVersion" />
-            <task name="components" type="org.gradle.api.reporting.components.ComponentReport">Displays the components produced by root project 'Configuration-Center-Server'. [incubating]&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
             <task name="buildDependents">Assembles and tests this project and all projects that depend on it.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
-            <task name="projects" type="org.gradle.api.tasks.diagnostics.ProjectReportTask">Displays the sub-projects of root project 'Configuration-Center-Server'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
             <task name="idea">Generates IDEA project files (IML, IPR, IWS)&lt;p&gt;&lt;i&gt;Task group: IDE&lt;i&gt;</task>
-            <task name="classes">Assembles main classes.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
-            <task name="dependentComponents" type="org.gradle.api.reporting.dependents.DependentComponentsReport">Displays the dependent components of components in root project 'Configuration-Center-Server'. [incubating]&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
-            <task name="buildEnvironment" type="org.gradle.api.tasks.diagnostics.BuildEnvironmentReportTask">Displays all buildscript dependencies declared in root project 'Configuration-Center-Server'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
-            <task name="wrapper" type="org.gradle.api.tasks.wrapper.Wrapper">Generates Gradle wrapper files. [incubating]&lt;p&gt;&lt;i&gt;Task group: Build Setup&lt;i&gt;</task>
+            <task name="classes">Assembles classes 'main'.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
             <task name="cleanIdeaModule" type="org.gradle.api.tasks.Delete">&lt;i&gt;Task group: other&lt;i&gt;</task>
-            <task name="testClasses">Assembles test classes.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="testClasses">Assembles classes 'test'.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
             <task name="javadoc" type="org.gradle.api.tasks.javadoc.Javadoc">Generates Javadoc API documentation for the main source code.&lt;p&gt;&lt;i&gt;Task group: documentation&lt;i&gt;</task>
             <task name="jar" type="org.gradle.api.tasks.bundling.Jar">Assembles a jar archive containing the main classes.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
-            <task name="model" type="org.gradle.api.reporting.model.ModelReport">Displays the configuration model of root project 'Configuration-Center-Server'. [incubating]&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
             <task name="ideaModule" type="org.gradle.plugins.ide.idea.GenerateIdeaModule">Generates IDEA module files (IML)&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
-            <task name="processResources" type="org.gradle.language.jvm.tasks.ProcessResources">Processes main resources.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
-            <task name="tasks" type="org.gradle.api.tasks.diagnostics.TaskReportTask">Displays the tasks runnable from root project 'Configuration-Center-Server'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
-            <task name="init" type="org.gradle.buildinit.tasks.InitBuild">Initializes a new Gradle build. [incubating]&lt;p&gt;&lt;i&gt;Task group: Build Setup&lt;i&gt;</task>
+            <task name="processResources" type="org.gradle.language.jvm.tasks.ProcessResources">Processes JVM resources 'main:resources'.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="cleanIdea">Cleans IDEA project files (IML, IPR)&lt;p&gt;&lt;i&gt;Task group: IDE&lt;i&gt;</task>
             <task name="ideaWorkspace" type="org.gradle.plugins.ide.idea.GenerateIdeaWorkspace">Generates an IDEA workspace file (IWS)&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="test" type="org.gradle.api.tasks.testing.Test">Runs the unit tests.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
             <task name="dependencyManagement" type="io.spring.gradle.dependencymanagement.internal.report.DependencyManagementReportTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="bootRepackage" type="org.springframework.boot.gradle.repackage.RepackageTask">Repackage existing JAR and WAR archives so that they can be executed from the command line using 'java -jar'&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
             <task name="bootRun" type="org.springframework.boot.gradle.run.BootRunTask">Run the project with support for auto-detecting main class and reloading static resources&lt;p&gt;&lt;i&gt;Task group: application&lt;i&gt;</task>
-            <task name="compileJava" type="org.gradle.api.tasks.compile.JavaCompile">Compiles main Java source.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
-            <task name="dependencyInsight" type="org.gradle.api.tasks.diagnostics.DependencyInsightReportTask">Displays the insight into a specific dependency in root project 'Configuration-Center-Server'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="compileJava" type="org.gradle.api.tasks.compile.JavaCompile">Compiles Java source 'main:java'.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="check">Runs all checks.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
             <task name="assemble">Assembles the outputs of this project.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
             <task name="clean" type="org.gradle.api.tasks.Delete">Deletes the build directory.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
-            <task name="compileTestJava" type="org.gradle.api.tasks.compile.JavaCompile">Compiles test Java source.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileTestJava" type="org.gradle.api.tasks.compile.JavaCompile">Compiles Java source 'test:java'.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="cleanIdeaProject" type="org.gradle.api.tasks.Delete">&lt;i&gt;Task group: other&lt;i&gt;</task>
-            <task name="dependencies" type="org.gradle.api.tasks.diagnostics.DependencyReportTask">Displays all dependencies declared in root project 'Configuration-Center-Server'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
-            <task name="processTestResources" type="org.gradle.language.jvm.tasks.ProcessResources">Processes test resources.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
-            <task name="help" type="org.gradle.configuration.Help">Displays a help message.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="processTestResources" type="org.gradle.language.jvm.tasks.ProcessResources">Processes JVM resources 'test:resources'.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="build">Assembles and tests this project.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
             <task name="findMainClass" type="org.springframework.boot.gradle.run.FindMainClassTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="buildNeeded">Assembles and tests this project and all projects it depends on.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
             <task name="ideaProject" type="org.gradle.plugins.ide.idea.GenerateIdeaProject">Generates IDEA project file (IPR)&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
-            <task name="properties" type="org.gradle.api.tasks.diagnostics.PropertyReportTask">Displays the properties of root project 'Configuration-Center-Server'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
             <task name="cleanIdeaWorkspace" type="org.gradle.api.tasks.Delete">&lt;i&gt;Task group: other&lt;i&gt;</task>
             <conf name="archives">Configuration for archive artifacts.</conf>
-            <conf name="compile" visible="false">Dependencies for source set 'main'.</conf>
-            <conf name="compileClasspath" visible="false">Compile classpath for source set 'main'.</conf>
-            <conf name="compileOnly" visible="false">Compile dependencies for source set 'main'.</conf>
+            <conf name="compile" visible="false">Compile classpath for source set 'main'.</conf>
             <conf name="default">Configuration for default artifacts.</conf>
-            <conf name="runtime" visible="false">Runtime dependencies for source set 'main'.</conf>
-            <conf name="testCompile" visible="false">Dependencies for source set 'test'.</conf>
-            <conf name="testCompileClasspath" visible="false">Compile classpath for source set 'test'.</conf>
-            <conf name="testCompileOnly" visible="false">Compile dependencies for source set 'test'.</conf>
-            <conf name="testRuntime" visible="false">Runtime dependencies for source set 'test'.</conf>
+            <conf name="runtime" visible="false">Runtime classpath for source set 'main'.</conf>
+            <conf name="testCompile" visible="false">Compile classpath for source set 'test'.</conf>
+            <conf name="testRuntime" visible="false">Runtime classpath for source set 'test'.</conf>
             <conf name="classpath" scriptClasspath="true" />
           </extensions>
         </project>
@@ -245,12 +133,12 @@
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
-        <entry key="$PROJECT_DIR$" value="$PROJECT_DIR$/../dev/gradle-3.2.1" />
+        <entry key="$PROJECT_DIR$" value="G:\gradle-2.2.1" />
       </map>
     </option>
     <option name="myGradleVersions">
       <map>
-        <entry key="$PROJECT_DIR$" value="3.2.1" />
+        <entry key="$PROJECT_DIR$" value="2.2.1" />
       </map>
     </option>
     <option name="availableProjects">
@@ -279,42 +167,17 @@
           <value>
             <list>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by root project 'Configuration-Center-Server'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="components" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project and all projects that depend on it." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="buildDependents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of root project 'Configuration-Center-Server'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="projects" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles main classes." />
+                <option name="description" value="Assembles classes 'main'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="classes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the dependent components of components in root project 'Configuration-Center-Server'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="dependentComponents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in root project 'Configuration-Center-Server'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="buildEnvironment" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generates Gradle wrapper files. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="wrapper" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles test classes." />
+                <option name="description" value="Assembles classes 'test'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="testClasses" />
               </ExternalTaskPojo>
@@ -329,24 +192,9 @@
                 <option name="name" value="jar" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of root project 'Configuration-Center-Server'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="model" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes main resources." />
+                <option name="description" value="Processes JVM resources 'main:resources'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="processResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from root project 'Configuration-Center-Server'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="tasks" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Initializes a new Gradle build. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="init" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs the unit tests." />
@@ -368,14 +216,9 @@
                 <option name="name" value="bootRun" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Compiles main Java source." />
+                <option name="description" value="Compiles Java source 'main:java'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in root project 'Configuration-Center-Server'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="dependencyInsight" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs all checks." />
@@ -393,24 +236,14 @@
                 <option name="name" value="clean" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Compiles test Java source." />
+                <option name="description" value="Compiles Java source 'test:java'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileTestJava" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in root project 'Configuration-Center-Server'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="dependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes test resources." />
+                <option name="description" value="Processes JVM resources 'test:resources'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="processTestResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays a help message." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="help" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project." />
@@ -426,11 +259,6 @@
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="buildNeeded" />
               </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of root project 'Configuration-Center-Server'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="properties" />
-              </ExternalTaskPojo>
             </list>
           </value>
         </entry>
@@ -438,7 +266,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="1492958572000" />
+        <entry key="$PROJECT_DIR$" value="1492998867749" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -474,138 +302,108 @@
               <option name="name" value="Configuration-Center-Server" />
               <option name="projectBuildClasspath">
                 <list>
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/announce" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/antlr" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/base-services" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/base-services-groovy" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/build-comparison" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/build-init" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/cli" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/code-quality" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/composite-builds" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/core" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/dependency-management" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/diagnostics" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/ear" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/ide" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/ide-native" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/ide-play" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/installation-beacon" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/internal-android-performance-testing" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/internal-integ-testing" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/internal-performance-testing" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/internal-testing" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/ivy" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/jacoco" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/javascript" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/jetty" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/jvm-services" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/language-groovy" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/language-java" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/language-jvm" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/language-native" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/language-scala" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/launcher" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/logging" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/maven" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/messaging" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/model-core" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/model-groovy" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/native" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/open-api" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/osgi" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/platform-base" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/platform-jvm" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/platform-native" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/platform-play" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/plugin-development" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/plugin-use" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/plugins" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/process-services" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/publish" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/reporting" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/resources" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/resources-http" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/resources-s3" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/resources-sftp" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/scala" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/signing" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/task-cache-http" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/test-kit" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/testing-base" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/testing-jvm" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/testing-native" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/tooling-api" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/tooling-api-builders" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/ui" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/src/wrapper" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/ant-1.9.6.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/ant-launcher-1.9.6.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/gradle-base-services-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/gradle-base-services-groovy-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/gradle-cli-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/gradle-core-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/gradle-docs-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/gradle-installation-beacon-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/gradle-jvm-services-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/gradle-launcher-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/gradle-logging-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/gradle-messaging-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/gradle-model-core-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/gradle-model-groovy-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/gradle-native-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/gradle-open-api-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/gradle-process-services-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/gradle-resources-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/gradle-script-kotlin-0.4.0.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/gradle-tooling-api-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/gradle-ui-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/gradle-wrapper-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/groovy-all-2.4.7.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/plugins/gradle-announce-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/plugins/gradle-antlr-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/plugins/gradle-build-comparison-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/plugins/gradle-build-init-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/plugins/gradle-code-quality-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/plugins/gradle-composite-builds-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/plugins/gradle-dependency-management-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/plugins/gradle-diagnostics-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/plugins/gradle-ear-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/plugins/gradle-ide-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/plugins/gradle-ide-native-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/plugins/gradle-ide-play-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/plugins/gradle-ivy-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/plugins/gradle-jacoco-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/plugins/gradle-javascript-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/plugins/gradle-jetty-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/plugins/gradle-language-groovy-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/plugins/gradle-language-java-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/plugins/gradle-language-jvm-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/plugins/gradle-language-native-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/plugins/gradle-language-scala-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/plugins/gradle-maven-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/plugins/gradle-osgi-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/plugins/gradle-platform-base-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/plugins/gradle-platform-jvm-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/plugins/gradle-platform-native-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/plugins/gradle-platform-play-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/plugins/gradle-plugin-development-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/plugins/gradle-plugin-use-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/plugins/gradle-plugins-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/plugins/gradle-publish-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/plugins/gradle-reporting-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/plugins/gradle-resources-http-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/plugins/gradle-resources-s3-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/plugins/gradle-resources-sftp-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/plugins/gradle-scala-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/plugins/gradle-signing-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/plugins/gradle-task-cache-http-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/plugins/gradle-test-kit-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/plugins/gradle-testing-base-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/plugins/gradle-testing-jvm-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/plugins/gradle-testing-native-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/plugins/gradle-tooling-api-builders-3.2.1.jar" />
-                  <option value="$PROJECT_DIR$/../dev/gradle-3.2.1/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="G:/gradle-2.2.1/src/announce" />
+                  <option value="G:/gradle-2.2.1/src/antlr" />
+                  <option value="G:/gradle-2.2.1/src/base-services" />
+                  <option value="G:/gradle-2.2.1/src/base-services-groovy" />
+                  <option value="G:/gradle-2.2.1/src/build-comparison" />
+                  <option value="G:/gradle-2.2.1/src/build-init" />
+                  <option value="G:/gradle-2.2.1/src/cli" />
+                  <option value="G:/gradle-2.2.1/src/code-quality" />
+                  <option value="G:/gradle-2.2.1/src/core" />
+                  <option value="G:/gradle-2.2.1/src/cunit" />
+                  <option value="G:/gradle-2.2.1/src/dependency-management" />
+                  <option value="G:/gradle-2.2.1/src/diagnostics" />
+                  <option value="G:/gradle-2.2.1/src/ear" />
+                  <option value="G:/gradle-2.2.1/src/ide" />
+                  <option value="G:/gradle-2.2.1/src/ide-native" />
+                  <option value="G:/gradle-2.2.1/src/internal-integ-testing" />
+                  <option value="G:/gradle-2.2.1/src/internal-testing" />
+                  <option value="G:/gradle-2.2.1/src/ivy" />
+                  <option value="G:/gradle-2.2.1/src/jacoco" />
+                  <option value="G:/gradle-2.2.1/src/javascript" />
+                  <option value="G:/gradle-2.2.1/src/jetty" />
+                  <option value="G:/gradle-2.2.1/src/language-groovy" />
+                  <option value="G:/gradle-2.2.1/src/language-java" />
+                  <option value="G:/gradle-2.2.1/src/language-jvm" />
+                  <option value="G:/gradle-2.2.1/src/language-native" />
+                  <option value="G:/gradle-2.2.1/src/launcher" />
+                  <option value="G:/gradle-2.2.1/src/maven" />
+                  <option value="G:/gradle-2.2.1/src/messaging" />
+                  <option value="G:/gradle-2.2.1/src/model-core" />
+                  <option value="G:/gradle-2.2.1/src/model-groovy" />
+                  <option value="G:/gradle-2.2.1/src/native" />
+                  <option value="G:/gradle-2.2.1/src/open-api" />
+                  <option value="G:/gradle-2.2.1/src/osgi" />
+                  <option value="G:/gradle-2.2.1/src/platform-base" />
+                  <option value="G:/gradle-2.2.1/src/platform-jvm" />
+                  <option value="G:/gradle-2.2.1/src/platform-native" />
+                  <option value="G:/gradle-2.2.1/src/plugin-development" />
+                  <option value="G:/gradle-2.2.1/src/plugin-use" />
+                  <option value="G:/gradle-2.2.1/src/plugins" />
+                  <option value="G:/gradle-2.2.1/src/publish" />
+                  <option value="G:/gradle-2.2.1/src/reporting" />
+                  <option value="G:/gradle-2.2.1/src/resources" />
+                  <option value="G:/gradle-2.2.1/src/resources-http" />
+                  <option value="G:/gradle-2.2.1/src/scala" />
+                  <option value="G:/gradle-2.2.1/src/signing" />
+                  <option value="G:/gradle-2.2.1/src/sonar" />
+                  <option value="G:/gradle-2.2.1/src/tooling-api" />
+                  <option value="G:/gradle-2.2.1/src/ui" />
+                  <option value="G:/gradle-2.2.1/src/wrapper" />
+                  <option value="G:/gradle-2.2.1/lib/ant-1.9.3.jar" />
+                  <option value="G:/gradle-2.2.1/lib/ant-launcher-1.9.3.jar" />
+                  <option value="G:/gradle-2.2.1/lib/gradle-base-services-2.2.1.jar" />
+                  <option value="G:/gradle-2.2.1/lib/gradle-base-services-groovy-2.2.1.jar" />
+                  <option value="G:/gradle-2.2.1/lib/gradle-cli-2.2.1.jar" />
+                  <option value="G:/gradle-2.2.1/lib/gradle-core-2.2.1.jar" />
+                  <option value="G:/gradle-2.2.1/lib/gradle-docs-2.2.1.jar" />
+                  <option value="G:/gradle-2.2.1/lib/gradle-launcher-2.2.1.jar" />
+                  <option value="G:/gradle-2.2.1/lib/gradle-messaging-2.2.1.jar" />
+                  <option value="G:/gradle-2.2.1/lib/gradle-model-core-2.2.1.jar" />
+                  <option value="G:/gradle-2.2.1/lib/gradle-model-groovy-2.2.1.jar" />
+                  <option value="G:/gradle-2.2.1/lib/gradle-native-2.2.1.jar" />
+                  <option value="G:/gradle-2.2.1/lib/gradle-open-api-2.2.1.jar" />
+                  <option value="G:/gradle-2.2.1/lib/gradle-resources-2.2.1.jar" />
+                  <option value="G:/gradle-2.2.1/lib/gradle-tooling-api-2.2.1.jar" />
+                  <option value="G:/gradle-2.2.1/lib/gradle-ui-2.2.1.jar" />
+                  <option value="G:/gradle-2.2.1/lib/gradle-wrapper-2.2.1.jar" />
+                  <option value="G:/gradle-2.2.1/lib/groovy-all-2.3.6.jar" />
+                  <option value="G:/gradle-2.2.1/lib/plugins/ant-antlr-1.9.3.jar" />
+                  <option value="G:/gradle-2.2.1/lib/plugins/gradle-announce-2.2.1.jar" />
+                  <option value="G:/gradle-2.2.1/lib/plugins/gradle-antlr-2.2.1.jar" />
+                  <option value="G:/gradle-2.2.1/lib/plugins/gradle-build-comparison-2.2.1.jar" />
+                  <option value="G:/gradle-2.2.1/lib/plugins/gradle-build-init-2.2.1.jar" />
+                  <option value="G:/gradle-2.2.1/lib/plugins/gradle-code-quality-2.2.1.jar" />
+                  <option value="G:/gradle-2.2.1/lib/plugins/gradle-cunit-2.2.1.jar" />
+                  <option value="G:/gradle-2.2.1/lib/plugins/gradle-dependency-management-2.2.1.jar" />
+                  <option value="G:/gradle-2.2.1/lib/plugins/gradle-diagnostics-2.2.1.jar" />
+                  <option value="G:/gradle-2.2.1/lib/plugins/gradle-ear-2.2.1.jar" />
+                  <option value="G:/gradle-2.2.1/lib/plugins/gradle-ide-2.2.1.jar" />
+                  <option value="G:/gradle-2.2.1/lib/plugins/gradle-ide-native-2.2.1.jar" />
+                  <option value="G:/gradle-2.2.1/lib/plugins/gradle-ivy-2.2.1.jar" />
+                  <option value="G:/gradle-2.2.1/lib/plugins/gradle-jacoco-2.2.1.jar" />
+                  <option value="G:/gradle-2.2.1/lib/plugins/gradle-javascript-2.2.1.jar" />
+                  <option value="G:/gradle-2.2.1/lib/plugins/gradle-jetty-2.2.1.jar" />
+                  <option value="G:/gradle-2.2.1/lib/plugins/gradle-language-groovy-2.2.1.jar" />
+                  <option value="G:/gradle-2.2.1/lib/plugins/gradle-language-java-2.2.1.jar" />
+                  <option value="G:/gradle-2.2.1/lib/plugins/gradle-language-jvm-2.2.1.jar" />
+                  <option value="G:/gradle-2.2.1/lib/plugins/gradle-language-native-2.2.1.jar" />
+                  <option value="G:/gradle-2.2.1/lib/plugins/gradle-maven-2.2.1.jar" />
+                  <option value="G:/gradle-2.2.1/lib/plugins/gradle-osgi-2.2.1.jar" />
+                  <option value="G:/gradle-2.2.1/lib/plugins/gradle-platform-base-2.2.1.jar" />
+                  <option value="G:/gradle-2.2.1/lib/plugins/gradle-platform-jvm-2.2.1.jar" />
+                  <option value="G:/gradle-2.2.1/lib/plugins/gradle-platform-native-2.2.1.jar" />
+                  <option value="G:/gradle-2.2.1/lib/plugins/gradle-plugin-development-2.2.1.jar" />
+                  <option value="G:/gradle-2.2.1/lib/plugins/gradle-plugin-use-2.2.1.jar" />
+                  <option value="G:/gradle-2.2.1/lib/plugins/gradle-plugins-2.2.1.jar" />
+                  <option value="G:/gradle-2.2.1/lib/plugins/gradle-publish-2.2.1.jar" />
+                  <option value="G:/gradle-2.2.1/lib/plugins/gradle-reporting-2.2.1.jar" />
+                  <option value="G:/gradle-2.2.1/lib/plugins/gradle-resources-http-2.2.1.jar" />
+                  <option value="G:/gradle-2.2.1/lib/plugins/gradle-scala-2.2.1.jar" />
+                  <option value="G:/gradle-2.2.1/lib/plugins/gradle-signing-2.2.1.jar" />
+                  <option value="G:/gradle-2.2.1/lib/plugins/gradle-sonar-2.2.1.jar" />
+                  <option value="G:/gradle-2.2.1/lib/plugins/ivy-2.2.0.jar" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
                 </list>
@@ -622,11 +420,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/xzfm/ConfigurationCenterServerApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xzfm/monitor/datasource/DruidInterceptorFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xzfm/monitor/datasource/SpringMonitor.java" />
         <option value="$PROJECT_DIR$/src/main/java/xzfm/monitor/EnableDataMonitor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xzfm/monitor/datasource/DruidProperties.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xzfm/monitor/datasource/DataSourceFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -637,12 +434,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="803" />
-  </component>
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
+    <option name="x" value="-13" />
+    <option name="y" value="26" />
+    <option name="width" value="1924" />
+    <option name="height" value="1008" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -650,7 +445,7 @@
       <showMembers />
       <showModules />
       <showLibraryContents />
-      <hideEmptyPackages ProjectPane="false" />
+      <hideEmptyPackages />
       <abbreviatePackageNames />
       <autoscrollToSource />
       <autoscrollFromSource />
@@ -659,21 +454,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Configuration-Center-Server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Configuration-Center-Server" />
@@ -746,85 +531,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Configuration-Center-Server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Configuration-Center-Server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xzfm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="monitor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Configuration-Center-Server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Configuration-Center-Server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xzfm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="monitor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="datasource" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-      <recent name="$PROJECT_DIR$/src/main/java/xzfm" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -1036,7 +749,7 @@
           <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
           <option name="launcherType" value="OSDefault" />
           <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
         </LauncherParameters>
       </option>
       <option name="mobileRunTarget" value="Emulator" />
@@ -1059,7 +772,7 @@
           <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
           <option name="launcherType" value="OSDefault" />
           <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
         </LauncherParameters>
       </option>
       <option name="moduleName" value="" />
@@ -1088,16 +801,6 @@
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
       <setting name="launchBrowserUrl" value="" />
-      <setting name="depsClasspath" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="file://$PROJECT_DIR$" />
-      <setting name="debug" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -1226,12 +929,6 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -1261,54 +958,47 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="927b571d-05b9-4ffb-8a0a-b3462f258620" name="Default" comment="" />
-      <created>1492958521367</created>
+      <changelist id="451ff89b-76db-4751-be5f-d1806d4cb988" name="Default" comment="" />
+      <created>1493007857674</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1492958521367</updated>
-      <workItem from="1492958525052" duration="1057000" />
-      <workItem from="1492959648960" duration="102000" />
+      <updated>1493007857674</updated>
+      <workItem from="1493007859106" duration="445000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1159000" />
+    <option name="totallyTimeSpent" value="445000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="803" extended-state="6" />
+    <frame x="-13" y="26" width="1924" height="1008" extended-state="0" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329927" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32951945" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="-1" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1326,198 +1016,70 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/xzfm/ConfigurationCenterServerApplication.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/1.5.3.RELEASE/48c2b8c7728069f168769d856b019fff6b5b998/spring-boot-1.5.3.RELEASE-sources.jar!/org/springframework/boot/context/properties/EnableConfigurationProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xzfm/monitor/EnableDataMonitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="45" lean-forward="false" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xzfm/monitor/datasource/DataSourceFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xzfm/monitor/datasource/DruidInterceptorFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        <state relative-caret-position="217">
+          <caret line="28" column="52" lean-forward="false" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="52" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xzfm/monitor/datasource/DruidProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xzfm/monitor/datasource/DruidStatFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xzfm/monitor/datasource/DruidStatViewServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xzfm/monitor/datasource/SpringMonitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba/druid/1.0.29/fd544952195fa15a21737b97b30f0852e87261ad/druid-1.0.29-sources.jar!/com/alibaba/druid/support/http/StatViewServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2241">
-          <caret line="37" column="13" lean-forward="false" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba/druid/1.0.29/fd544952195fa15a21737b97b30f0852e87261ad/druid-1.0.29-sources.jar!/com/alibaba/druid/support/http/ResourceServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1038">
-          <caret line="34" column="22" lean-forward="false" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba/druid/1.0.29/fd544952195fa15a21737b97b30f0852e87261ad/druid-1.0.29-sources.jar!/com/alibaba/druid/support/http/MonitorClientContextListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba/druid/1.0.29/fd544952195fa15a21737b97b30f0852e87261ad/druid-1.0.29-sources.jar!/com/alibaba/druid/support/http/AbstractWebStatImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-562">
-          <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba/druid/1.0.29/fd544952195fa15a21737b97b30f0852e87261ad/druid-1.0.29-sources.jar!/com/alibaba/druid/support/http/WebStatFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-718">
-          <caret line="53" column="13" lean-forward="false" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba/druid/1.0.29/fd544952195fa15a21737b97b30f0852e87261ad/druid-1.0.29-sources.jar!/com/alibaba/druid/support/http/util/IPAddress.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xzfm/monitor/EnableDataMonitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="45" lean-forward="false" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+        <state relative-caret-position="196">
+          <caret line="72" column="33" lean-forward="false" selection-start-line="72" selection-start-column="33" selection-end-line="72" selection-end-column="33" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2031#2032#0" expanded="true" />
+            <element signature="e#2079#2080#0" expanded="true" />
+            <element signature="e#2119#2120#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="1395">
+          <caret line="45" column="1" lean-forward="false" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xzfm/monitor/EnableDataMonitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xzfm/monitor/datasource/DataSourceFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xzfm/monitor/datasource/DruidInterceptorFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xzfm/monitor/datasource/DruidProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xzfm/monitor/datasource/DruidStatFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="-342">
+          <caret line="19" column="59" lean-forward="false" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xzfm/monitor/datasource/DruidStatViewServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
+        <state relative-caret-position="312">
           <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xzfm/monitor/datasource/DruidStatFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xzfm/ConfigurationCenterServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="124">
+          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
           <folding />
         </state>
       </provider>

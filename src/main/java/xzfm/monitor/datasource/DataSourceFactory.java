@@ -4,6 +4,7 @@ import com.alibaba.druid.pool.DruidDataSource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 
+import javax.sql.DataSource;
 import java.sql.SQLException;
 
 /**
@@ -13,11 +14,11 @@ public class DataSourceFactory {
     @Autowired
     private DruidProperties druidProperties;
 
-    @Bean
-    public DruidDataSource createDateSource() throws SQLException {
+    @Bean(destroyMethod = "close", initMethod = "init")
+    public DataSource createDateSource() throws SQLException {
         DruidDataSource druidDataSource = new DruidDataSource();
         druidDataSource.setUrl(druidProperties.getDbUrl());
-        druidDataSource.setUsername(druidProperties.getUsername());
+        druidDataSource.setUsername(druidProperties.getUserName());
         druidDataSource.setPassword(druidProperties.getPassword());
         druidDataSource.setDriverClassName(druidProperties.getDriverClassName());
         //configuration

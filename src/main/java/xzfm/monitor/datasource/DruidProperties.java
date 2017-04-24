@@ -12,7 +12,7 @@ public class DruidProperties {
     private String dbUrl;
 
     @Value("${spring.datasource.username}")
-    private String username;
+    private String userName;
 
     @Value("${spring.datasource.password}")
     private String password;
@@ -70,12 +70,12 @@ public class DruidProperties {
         this.dbUrl = dbUrl;
     }
 
-    public String getUsername() {
-        return username;
+    public String getUserName() {
+        return userName;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
+    public void setUserName(String userName) {
+        this.userName = userName;
     }
 
     public String getPassword() {
