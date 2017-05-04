@@ -31,6 +31,11 @@ dependencies {
 	compile('org.springframework.boot:spring-boot-starter-validation')
 	compile('org.springframework.boot:spring-boot-starter-web')
 	compile group: 'com.alibaba', name: 'druid', version: '1.0.29'
+	compile("io.springfox:springfox-swagger2:2.2.2")
+	compile 'com.google.code.gson:gson:2.2.4'
+	compile 'org.projectlombok:lombok:1.16.6'
+
+
 
 	runtime('mysql:mysql-connector-java')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
