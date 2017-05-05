@@ -3,10 +3,7 @@ package xzfm.common.domain;
 
 import xzfm.common.util.UUIDUtil;
 
-import javax.persistence.Column;
-import javax.persistence.Id;
-import javax.persistence.MappedSuperclass;
-import javax.persistence.Version;
+import javax.persistence.*;
 import java.io.Serializable;
 import java.sql.Timestamp;
 
@@ -14,7 +11,7 @@ import java.sql.Timestamp;
  * Created by wangxizhong on 2016/12/1.
  */
 @MappedSuperclass
-public  class BaseEntity implements Serializable {
+public class BaseEntity implements Serializable {
     @Id
     @Column(nullable = false, unique = true)
     private String id;
@@ -51,5 +48,9 @@ public  class BaseEntity implements Serializable {
 
     public BaseEntity() {
         id = UUIDUtil.getUUIDToUpperCase();
+    }
+
+    protected static EntityManager session() {
+        return new NativeQuery().getEntityManager();
     }
 }

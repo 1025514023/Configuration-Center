@@ -2,18 +2,21 @@ package xzfm.core.domain;
 
 import org.hibernate.annotations.DynamicInsert;
 import org.hibernate.annotations.DynamicUpdate;
+import xzfm.common.boot.annotation.HibernateDynamic;
+import xzfm.common.domain.BaseEntity;
 import xzfm.monitor.datasource.SpringMonitor;
 
 import javax.persistence.Column;
+import javax.persistence.Entity;
 import javax.persistence.Table;
 
 /**
  * Created by wangxizhong on 2017/4/24.
  */
-@DynamicInsert
-@DynamicUpdate
+@Entity
+@HibernateDynamic
 @Table(name = "configuration_center")
-public class ConfigurationCenter implements SpringMonitor {
+public class ConfigurationCenter extends BaseEntity implements SpringMonitor {
 
     @Column(name = "configuration_name")
     private String configurationName;
@@ -27,9 +30,9 @@ public class ConfigurationCenter implements SpringMonitor {
     @Column
     private String status;
 
-    public static final String STATUS_OPEN = "open";
+    public static final String STATUS_NORMAL = "normal";
 
-    public static final String STATUS_UNOPEN = "unOpen";
+    public static final String STATUS_DISABLE = "disable";
 
     public static final String TYPE_SERVER = "server";
 
@@ -77,6 +80,7 @@ public class ConfigurationCenter implements SpringMonitor {
         configurationCenter.setConfigurationUrl(configurationUrl);
         configurationCenter.setType(type);
         configurationCenter.setStatus(status);
+        session().persist(configurationCenter);
         return configurationCenter;
     }
 }

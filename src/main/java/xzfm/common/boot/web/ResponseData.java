@@ -11,7 +11,7 @@ public class ResponseData<T> implements Serializable {
     private int code;
     private String message;
     private T data;
-    private Timestamp rtime;
+    private Timestamp submitTime;
 
     public boolean isSuccess() {
         return success;
@@ -45,20 +45,20 @@ public class ResponseData<T> implements Serializable {
         this.data = data;
     }
 
-    public Timestamp getRtime() {
-        return rtime;
+    public Timestamp getSubmitTime() {
+        return submitTime;
     }
 
-    public void setRtime(Timestamp rtime) {
-        this.rtime = rtime;
+    public void setSubmitTime(Timestamp submitTime) {
+        this.submitTime = submitTime;
     }
 
-    public ResponseData(boolean success, int code, String message, T data, Timestamp timestamp) {
+    public ResponseData(boolean success, int code, String message, T data, Timestamp submitTime) {
         this.success = success;
         this.code = code;
         this.message = message;
         this.data = data;
-        this.rtime = timestamp;
+        this.submitTime = submitTime;
     }
 
 

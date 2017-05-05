@@ -2,8 +2,11 @@ package xzfm.common.domain;
 
 import org.hibernate.SQLQuery;
 import org.hibernate.transform.Transformers;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Configuration;
 
 import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
 
 /**
@@ -12,19 +15,23 @@ import javax.persistence.Query;
  * @author wangxizhong
  * @return Map
  */
+@Configuration
 public class NativeQuery {
-    private static EntityManager entityManager = null;
 
-    public static EntityManager getEntityManager() {
+    @Autowired
+    //@PersistenceContext
+    private  EntityManager entityManager;
+
+    public  EntityManager getEntityManager() {
         return entityManager;
     }
 
-    public static void setEntityManager(EntityManager entityManager) {
+  /*  public  void setEntityManager(EntityManager entityManager) {
         if (entityManager == null || NativeQuery.entityManager != entityManager)
             NativeQuery.entityManager = entityManager;
-    }
+    }*/
 
-    public static Query createQuery(String sql) {
+    public  Query createQuery(String sql) {
         Query query = entityManager.createNativeQuery(sql);
         query.unwrap(SQLQuery.class).setResultTransformer(Transformers.ALIAS_TO_ENTITY_MAP);
         return query;
