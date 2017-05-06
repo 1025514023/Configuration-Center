@@ -2,7 +2,7 @@ package xzfm.common.domain.copier;
 
 
 import org.springframework.cglib.beans.BeanCopier;
-import xzfm.common.domain.BaseDao;
+import xzfm.common.domain.core.BaseDao;
 
 import java.io.Serializable;
 import java.util.function.Function;

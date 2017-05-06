@@ -42,9 +42,9 @@ public class SwaggerInitialization {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("Spring Boot with Swagger2 Builder RESTful APIs")
-                .description("http://coding.net.cn/")
-                .termsOfServiceUrl("http://coding.net.cn/")
+                .title("配置中心 RESTful APIs")
+                .description("版权所有:王熙中")
+                .termsOfServiceUrl("http://www.icoding.net.cn/")
                 .contact("WangXiZhong")
                 .version("1.0.0")
                 .build();
