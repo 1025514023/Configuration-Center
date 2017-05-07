@@ -59,8 +59,8 @@ public class ConfigurationCenterServiceImpl implements ConfigurationCenterServic
 
     @Override
     @Transactional
-    public void updateConfigurationDetailById(String configurationId, String configurationKey, String configurationValue,
-                                              String type, String status, int ttl) {
+    public void updateConfigurationById(String configurationId, String configurationKey, String configurationValue,
+                                        String type, String status, int ttl) {
 
         ASS.validateFalse(ttl > 0, "ttl不正确");
         ASS.validateStringNotEmpty(type, "配置类型不能为空");
@@ -76,5 +76,18 @@ public class ConfigurationCenterServiceImpl implements ConfigurationCenterServic
         center.setStatus(status);
         center.setConfigurationKey(configurationKey);
         center.setConfigurationValue(configurationValue);
+    }
+
+    @Override
+    @Transactional
+    public void AddConfiguration(String configurationKey, String configurationValue,
+                                 String type, String status, int ttl) {
+        ASS.validateFalse(ttl > 0, "ttl不正确");
+        ASS.validateStringNotEmpty(type, "配置类型不能为空");
+        ASS.validateStringNotEmpty(status, "配置状态不能为空");
+        ASS.validateStringNotEmpty(configurationKey, "配置key不能为空");
+        ASS.validateStringNotEmpty(configurationValue, "配置value不能为空");
+
+        ConfigurationCenter.create(configurationKey, configurationValue, type, status, ttl);
     }
 }

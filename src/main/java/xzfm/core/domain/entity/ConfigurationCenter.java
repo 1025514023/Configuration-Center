@@ -83,12 +83,14 @@ public class ConfigurationCenter extends BaseEntity implements SpringMonitor {
     }
 
     public static ConfigurationCenter create(String configurationKey, String configurationValue, String type,
-                                             String status) {
+                                             String status,int ttl) {
+
         ConfigurationCenter configurationCenter = new ConfigurationCenter();
-        configurationCenter.setConfigurationKey(configurationKey);
-        configurationCenter.setConfigurationValue(configurationValue);
+        configurationCenter.setTtl(ttl);
         configurationCenter.setType(type);
         configurationCenter.setStatus(status);
+        configurationCenter.setConfigurationKey(configurationKey);
+        configurationCenter.setConfigurationValue(configurationValue);
         session().persist(configurationCenter);
         return configurationCenter;
     }

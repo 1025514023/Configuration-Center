@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="zh-cn">
 <head>
@@ -32,7 +31,7 @@
 </script>
 
 
-<form method="post" action="">
+<form>
     <div class="panel admin-panel">
         <div class="panel-head"><strong class="icon-reorder"> 配置管理</strong></div>
         <div class="padding border-bottom">
@@ -55,7 +54,7 @@
                 <th>TTL</th>
                 <th>操作</th>
             </tr>
-            <#list data as item>
+        <#list data as item>
             <tr>
                 <td><input type="checkbox" name="id[]" value="1"/>${item.id?substring(10,16)}</td>
                 <td>${item.utime}</td>
@@ -66,21 +65,32 @@
                 <td>${item.ttl}</td>
                 <td>
                     <div class="button-group"><a class="button border-red" href="javascript:void(0)"
-                                                 onclick="return del(1)"><span class="icon-trash-o"></span> 删除</a></div>
+                                                 onclick="return del('${item.id}')"><span class="icon-trash-o"></span> 删除</a>
+                    </div>
                 </td>
             </tr>
-            </#list>
+        </#list>
             <!--tr>
               <td colspan="8"><div class="pagelist"> <a href="">上一页</a> <span class="current">1</span><a href="">2</a><a href="">3</a><a href="">下一页</a><a href="">尾页</a> </div></td>
             </tr-->
         </table>
     </div>
 </form>
-<script type="text/javascript">
+<script>
 
     function del(id) {
         if (confirm("您确定要删除吗?")) {
-
+            $.ajax({
+                type: "delete",
+                url: "/server/deleteConfigurationById/"+id,
+                success: function (ev) {
+                    if (ev.code == 200) {
+                        window.location.reload();
+                    } else {
+                        alert(ev.message);
+                    }
+                }
+            });
         }
     }
 

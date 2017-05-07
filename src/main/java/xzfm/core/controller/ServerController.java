@@ -4,10 +4,7 @@ import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import io.swagger.models.HttpMethod;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 import xzfm.common.boot.exception.ASS;
 import xzfm.common.boot.web.ResponseData;
@@ -31,17 +28,17 @@ public class ServerController implements SpringMonitor {
     @RequestMapping(value = "/getAllConfiguration", method = RequestMethod.GET)
     public ModelAndView getAllConfiguration() {
 
-        ModelAndView modelAndView = new ModelAndView("center/book");
+        ModelAndView modelAndView = new ModelAndView("center/conf_list");
         modelAndView.addObject("data", centerService.getAllConfiguration());
 
         return modelAndView;
     }
 
     @ApiOperation(value = "根据Id删除配置中心参数", httpMethod = "DELETE")
-    @RequestMapping(value = "/deleteConfigurationById", method = RequestMethod.DELETE)
+    @RequestMapping(value = "/deleteConfigurationById/{configurationId}", method = RequestMethod.DELETE)
     public ResponseData<Object> deleteConfigurationById(
             @ApiParam(name = "configurationId", value = "配置Id", required = true)
-            @RequestParam(name = "configurationId") String configurationId
+            @PathVariable(value = "configurationId") String configurationId
     ) {
         ASS.validateStringNotEmpty(configurationId, "配置Id不能为空");
 
@@ -61,8 +58,8 @@ public class ServerController implements SpringMonitor {
     }
 
     @ApiOperation(value = "根据Id更新配置中心参数", httpMethod = "PATCH")
-    @RequestMapping(value = "/updateConfigurationDetailById", method = RequestMethod.PATCH)
-    public ResponseData<Object> updateConfigurationDetailById(
+    @RequestMapping(value = "/updateConfigurationById", method = RequestMethod.PATCH)
+    public ResponseData<Object> updateConfigurationById(
             @ApiParam(name = "configurationId", value = "配置Id", required = true)
             @RequestParam(name = "configurationId") String configurationId,
             @ApiParam(name = "configurationKey", value = "配置key", required = true)
@@ -84,9 +81,35 @@ public class ServerController implements SpringMonitor {
         ASS.validateStringNotEmpty(configurationKey, "配置key不能为空");
         ASS.validateStringNotEmpty(configurationValue, "配置value不能为空");
 
-        centerService.updateConfigurationDetailById(
+        centerService.updateConfigurationById(
                 configurationId, configurationKey, configurationValue, type, status, ttl
         );
+        return ResponseData.ok(null);
+    }
+
+    @ApiOperation(value = "新增配置中心参数", httpMethod = "POST")
+    @RequestMapping(value = "/AddConfiguration", method = RequestMethod.POST)
+    public ResponseData<Object> AddConfiguration(
+            @ApiParam(name = "configurationKey", value = "配置key", required = true)
+            @RequestParam(name = "configurationKey") String configurationKey,
+            @ApiParam(name = "configurationValue", value = "配置value", required = true)
+            @RequestParam(name = "configurationValue") String configurationValue,
+            @ApiParam(name = "type", value = "类型", required = true)
+            @RequestParam(name = "type") String type,
+            @ApiParam(name = "status", value = "状态", required = true)
+            @RequestParam(name = "status") String status,
+            @ApiParam(name = "ttl", value = "ttl", required = true)
+            @RequestParam(name = "ttl") int ttl
+
+    ) {
+        ASS.validateFalse(ttl > 0, "ttl不正确");
+        ASS.validateStringNotEmpty(type, "配置类型不能为空");
+        ASS.validateStringNotEmpty(status, "配置状态不能为空");
+        ASS.validateStringNotEmpty(configurationKey, "配置key不能为空");
+        ASS.validateStringNotEmpty(configurationValue, "配置value不能为空");
+
+        centerService.AddConfiguration(configurationKey, configurationValue, type, status, ttl);
+
         return ResponseData.ok(null);
     }
 }

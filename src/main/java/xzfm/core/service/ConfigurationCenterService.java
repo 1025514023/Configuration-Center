@@ -16,6 +16,9 @@ public interface ConfigurationCenterService {
 
     List<ConfigurationCenterDto> getConfigurationDetailByKey(String configurationKey);
 
-    void updateConfigurationDetailById(String configurationId, String configurationKey, String configurationValue,
+    void updateConfigurationById(String configurationId, String configurationKey, String configurationValue,
+                                       String type, String status,int ttl);
+
+    void AddConfiguration(String configurationKey, String configurationValue,
                                        String type, String status,int ttl);
 }
