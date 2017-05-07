@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.ModelAndView;
 import xzfm.common.boot.exception.ASS;
 import xzfm.common.boot.web.ResponseData;
 import xzfm.core.domain.dto.ConfigurationCenterDto;
@@ -26,11 +27,14 @@ public class ServerController implements SpringMonitor {
     @Autowired
     private ConfigurationCenterService centerService;
 
-    @ApiOperation(value = "获取所有配置中心参数", httpMethod = "POST")
-    @RequestMapping(value = "/getAllConfiguration", method = RequestMethod.POST)
-    public ResponseData<List<ConfigurationCenterDto>> getAllConfiguration() {
+    @ApiOperation(value = "获取所有配置中心参数", httpMethod = "GET")
+    @RequestMapping(value = "/getAllConfiguration", method = RequestMethod.GET)
+    public ModelAndView getAllConfiguration() {
 
-        return ResponseData.ok(centerService.getAllConfiguration());
+        ModelAndView modelAndView = new ModelAndView("center/book");
+        modelAndView.addObject("data", centerService.getAllConfiguration());
+
+        return modelAndView;
     }
 
     @ApiOperation(value = "根据Id删除配置中心参数", httpMethod = "DELETE")
@@ -73,7 +77,7 @@ public class ServerController implements SpringMonitor {
             @RequestParam(name = "ttl") int ttl
 
     ) {
-        ASS.validateFalse(ttl>0,"ttl不正确");
+        ASS.validateFalse(ttl > 0, "ttl不正确");
         ASS.validateStringNotEmpty(type, "配置类型不能为空");
         ASS.validateStringNotEmpty(status, "配置状态不能为空");
         ASS.validateStringNotEmpty(configurationId, "配置Id不能为空");
@@ -81,7 +85,7 @@ public class ServerController implements SpringMonitor {
         ASS.validateStringNotEmpty(configurationValue, "配置value不能为空");
 
         centerService.updateConfigurationDetailById(
-                configurationId, configurationKey, configurationValue, type, status,ttl
+                configurationId, configurationKey, configurationValue, type, status, ttl
         );
         return ResponseData.ok(null);
     }

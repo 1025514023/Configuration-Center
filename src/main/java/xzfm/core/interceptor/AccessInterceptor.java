@@ -49,7 +49,7 @@ public class AccessInterceptor implements InitializingBean {
 
     }
 
-    @Around("aspect()")
+    //@Around("aspect()")
     public Object around(ProceedingJoinPoint joinPoint) throws Throwable {
 
         HttpServletRequest request = ((ServletRequestAttributes) RequestContextHolder.getRequestAttributes()).getRequest();

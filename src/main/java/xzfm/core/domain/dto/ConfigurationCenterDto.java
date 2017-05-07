@@ -1,6 +1,7 @@
 package xzfm.core.domain.dto;
 
 import java.io.Serializable;
+import java.sql.Timestamp;
 
 /**
  * Created by wangxizhong on 17/5/6.
@@ -10,8 +11,17 @@ public class ConfigurationCenterDto implements Serializable {
     private String id;
     private String type;
     private String status;
+    private Timestamp utime;
     private String configurationKey;
     private String configurationValue;
+
+    public Timestamp getUtime() {
+        return utime;
+    }
+
+    public void setUtime(Timestamp utime) {
+        this.utime = utime;
+    }
 
     public int getTtl() {
         return ttl;
