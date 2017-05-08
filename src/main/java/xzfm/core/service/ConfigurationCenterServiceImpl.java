@@ -45,22 +45,17 @@ public class ConfigurationCenterServiceImpl implements ConfigurationCenterServic
     }
 
     @Override
-    public List<ConfigurationCenterDto> getConfigurationDetailByKey(String configurationKey) {
-
+    public ConfigurationCenterDto getConfigurationDetailByKey(String configurationKey) {
         ASS.validateStringNotEmpty(configurationKey, "配置Key不能为空");
-        List<ConfigurationCenterDto> centerDtoList = new ArrayList<>();
-        List<ConfigurationCenter> centerList = centerDao.findByConfigurationKeyLike(configurationKey);
+        ConfigurationCenter centerConfig = centerDao.findByConfigurationKey(configurationKey);
 
-        for (ConfigurationCenter center : centerList) {
-            centerDtoList.add(BCC.build(center, ConfigurationCenterDto.class));
-        }
-        return centerDtoList;
+        return BCC.build(centerConfig, ConfigurationCenterDto.class);
     }
 
     @Override
     @Transactional
     public void updateConfigurationById(String configurationId, String configurationKey, String configurationValue,
-                                        String type, String status, int ttl) {
+                                        String type, String status, int ttl,String remark) {
 
         ASS.validateFalse(ttl > 0, "ttl不正确");
         ASS.validateStringNotEmpty(type, "配置类型不能为空");
@@ -73,6 +68,7 @@ public class ConfigurationCenterServiceImpl implements ConfigurationCenterServic
 
         center.setTtl(ttl);
         center.setType(type);
+        center.setRemark(remark);
         center.setStatus(status);
         center.setConfigurationKey(configurationKey);
         center.setConfigurationValue(configurationValue);
@@ -81,13 +77,13 @@ public class ConfigurationCenterServiceImpl implements ConfigurationCenterServic
     @Override
     @Transactional
     public void AddConfiguration(String configurationKey, String configurationValue,
-                                 String type, String status, int ttl) {
+                                 String type, String status, int ttl,String remark) {
         ASS.validateFalse(ttl > 0, "ttl不正确");
         ASS.validateStringNotEmpty(type, "配置类型不能为空");
         ASS.validateStringNotEmpty(status, "配置状态不能为空");
         ASS.validateStringNotEmpty(configurationKey, "配置key不能为空");
         ASS.validateStringNotEmpty(configurationValue, "配置value不能为空");
 
-        ConfigurationCenter.create(configurationKey, configurationValue, type, status, ttl);
+        ConfigurationCenter.create(configurationKey, configurationValue, type, status, ttl,remark);
     }
 }

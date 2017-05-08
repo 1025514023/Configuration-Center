@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
     <meta name="renderer" content="webkit">
-    <title>配置中心-新增配置</title>
+    <title>配置中心-更改配置</title>
     <link rel="stylesheet" href="css/pintuer.css">
     <link rel="stylesheet" href="css/admin.css">
     <script src="js/jquery.js"></script>
@@ -13,7 +13,51 @@
 </head>
 <body>
 <script>
+    $(function () {
+        var configuration_key = getParam("configuration_key");
+        $.ajax({
+            type: "post",
+            async: false,
+            url: "/server/getConfigurationDetailByKey?configurationKey=" + configuration_key,
+            success: function (ev) {
+                if (ev.code == 200) {
+                    $("#configuration_id").val(ev.data.id);
+                    $("#configuration_value").val(ev.data.configurationValue);
+                    $("#configuration_key").val(ev.data.configurationKey);
+                    $("#type").val(ev.data.type);
+                    $("#ttl").val(ev.data.ttl);
+                    $("#remark").val(ev.data.remark);
+                    $('input:radio[name="status"]:checked').val(ev.data.status);
+                } else {
+                    alert(ev.message);
+                }
+            },error:function (ex) {
+                alert('系统内部错误!');
+            }
+
+        });
+    });
+    function getParam(name) {
+        var search = document.location.search;
+        var pattern = new RegExp("[?&]" + name + "\=([^&]+)", "g");
+        var matcher = pattern.exec(search);
+        var items = null;
+        if (null != matcher) {
+            try {
+                items = decodeURIComponent(decodeURIComponent(matcher[1]));
+            } catch (e) {
+                try {
+                    items = decodeURIComponent(matcher[1]);
+                } catch (e) {
+                    items = matcher[1];
+                }
+            }
+        }
+        return items;
+    };
+
     function submit_conf() {
+        var configurationId = $("#configuration_id").val();
         var configurationKey = $("#configuration_key").val();
         var configurationValue = $("#configuration_value").val();
         var status = $('input:radio[name="status"]:checked').val();
@@ -22,18 +66,20 @@
         var remark = $("#remark").val();
         $.ajax({
             type: "post",
-            url: "/server/AddConfiguration",
+            url: "/server/updateConfigurationById",
             async: false,
             data: {
+                "configurationId": configurationId,
                 "configurationKey": configurationKey,
                 "configurationValue": configurationValue,
                 "status": status,
                 "type": type,
-                "ttl": ttl
+                "ttl": ttl,
+                "remark": remark
             },
             success: function (ev) {
                 if (ev.code == 200) {
-                    alert("添加成功!");
+                    alert("更新成功!");
                 } else {
                     alert(ev.message);
                 }
@@ -48,9 +94,10 @@
 
 </script>
 <div class="panel admin-panel margin-top">
-    <div class="panel-head" id="add"><strong><span class="icon-pencil-square-o"></span>新增配置</strong></div>
+    <div class="panel-head" id="add"><strong><span class="icon-pencil-square-o"></span>更改配置</strong></div>
     <div class="body-content">
         <form class="form-x">
+            <input type="hidden" id="configuration_id" value=""/><!--ConfigurationId-->
             <div class="form-group">
                 <div class="label">
                     <label>配置Key：</label>
@@ -72,7 +119,7 @@
                     <label>配置备注：</label>
                 </div>
                 <div class="field">
-                    <textarea type="text" class="input" id="remark" name="s_desc" style="height:100px;"></textarea>
+                    <textarea type="text" id="remark" class="input" name="s_desc" style="height:100px;"></textarea>
                 </div>
             </div>
             <div class="form-group">

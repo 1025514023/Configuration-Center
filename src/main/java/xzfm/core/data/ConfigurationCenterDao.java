@@ -11,6 +11,6 @@ import java.util.List;
  */
 public interface ConfigurationCenterDao extends SpringMonitor, BaseDao<ConfigurationCenter, String> {
 
-    List<ConfigurationCenter> findByConfigurationKeyLike(String configurationKey);
+    ConfigurationCenter findByConfigurationKey(String configurationKey);
 
 }

@@ -14,11 +14,11 @@ public interface ConfigurationCenterService {
 
     void deleteConfigurationById(String configurationId);
 
-    List<ConfigurationCenterDto> getConfigurationDetailByKey(String configurationKey);
+    ConfigurationCenterDto getConfigurationDetailByKey(String configurationKey);
 
     void updateConfigurationById(String configurationId, String configurationKey, String configurationValue,
-                                       String type, String status,int ttl);
+                                       String type, String status,int ttl,String remark);
 
     void AddConfiguration(String configurationKey, String configurationValue,
-                                       String type, String status,int ttl);
+                                       String type, String status,int ttl,String remark);
 }

@@ -18,16 +18,22 @@
         if (confirm("您确定要删除吗?")) {
             $.ajax({
                 type: "delete",
-                url: "/server/deleteConfigurationById/"+id,
+                url: "/server/deleteConfigurationById/" + id,
                 success: function (ev) {
                     if (ev.code == 200) {
                         window.location.reload();
                     } else {
                         alert(ev.message);
                     }
+                }, error: function (ex) {
+                    alert('系统内部错误!');
                 }
             });
         }
+    }
+    function updateConfig(key) {
+        alert(key);
+        window.location.href = "/center/update_conf.html?configuration_key=" + key;
     }
 
     /*("#checkall").click(function () {
@@ -81,6 +87,7 @@
                 <th>配置类型</th>
                 <th>状态</th>
                 <th>TTL</th>
+                <th>备注</th>
                 <th>操作</th>
             </tr>
         <#list data as item>
@@ -91,11 +98,19 @@
                 <td>${item.configurationValue}</td>
                 <td>${item.type}</td>
                 <td>${item.status}</td>
+                <td>${item.remark}</td>
                 <td>${item.ttl}</td>
                 <td>
-                    <div class="button-group"><a class="button border-red" href="javascript:void(0)"
-                                                 onclick="return del('${item.id}')"><span class="icon-trash-o"></span> 删除</a>
+                    <div class="button-group">
+                        <a class="button border-main"
+                           href="/center/update_conf.html?configuration_key=${item.configurationKey}"/>
+                        <span class="icon-edit"></span> 修改</a>
                     </div>
+                    <div class="button-group">
+                        <a class="button border-red" href="javascript:void(0)" onclick="return del('${item.id}')">
+                            <span class="icon-trash-o"></span> 删除</a>
+                    </div>
+
                 </td>
             </tr>
         </#list>

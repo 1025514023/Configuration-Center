@@ -46,9 +46,9 @@ public class ServerController implements SpringMonitor {
         return ResponseData.ok(null);
     }
 
-    @ApiOperation(value = "根据Key获取配置中心参数", httpMethod = "PATCH")
-    @RequestMapping(value = "/getConfigurationDetailById", method = RequestMethod.POST)
-    public ResponseData<List<ConfigurationCenterDto>> getConfigurationDetailByKey(
+    @ApiOperation(value = "根据Key获取配置中心参数", httpMethod = "POST")
+    @RequestMapping(value = "/getConfigurationDetailByKey", method = RequestMethod.POST)
+    public ResponseData<ConfigurationCenterDto> getConfigurationDetailByKey(
             @ApiParam(name = "configurationKey", value = "配置Key", required = true)
             @RequestParam(name = "configurationKey") String configurationKey
     ) {
@@ -57,8 +57,8 @@ public class ServerController implements SpringMonitor {
         return ResponseData.ok(centerService.getConfigurationDetailByKey(configurationKey));
     }
 
-    @ApiOperation(value = "根据Id更新配置中心参数", httpMethod = "PATCH")
-    @RequestMapping(value = "/updateConfigurationById", method = RequestMethod.PATCH)
+    @ApiOperation(value = "根据Id更新配置中心参数", httpMethod = "POST")
+    @RequestMapping(value = "/updateConfigurationById", method = RequestMethod.POST)
     public ResponseData<Object> updateConfigurationById(
             @ApiParam(name = "configurationId", value = "配置Id", required = true)
             @RequestParam(name = "configurationId") String configurationId,
@@ -71,7 +71,9 @@ public class ServerController implements SpringMonitor {
             @ApiParam(name = "status", value = "状态", required = true)
             @RequestParam(name = "status") String status,
             @ApiParam(name = "ttl", value = "ttl", required = true)
-            @RequestParam(name = "ttl") int ttl
+            @RequestParam(name = "ttl") int ttl,
+            @ApiParam(name = "remark", value = "备注")
+            @RequestParam(name = "remark", required = false) String remark
 
     ) {
         ASS.validateFalse(ttl > 0, "ttl不正确");
@@ -82,7 +84,7 @@ public class ServerController implements SpringMonitor {
         ASS.validateStringNotEmpty(configurationValue, "配置value不能为空");
 
         centerService.updateConfigurationById(
-                configurationId, configurationKey, configurationValue, type, status, ttl
+                configurationId, configurationKey, configurationValue, type, status, ttl, remark
         );
         return ResponseData.ok(null);
     }
@@ -99,7 +101,9 @@ public class ServerController implements SpringMonitor {
             @ApiParam(name = "status", value = "状态", required = true)
             @RequestParam(name = "status") String status,
             @ApiParam(name = "ttl", value = "ttl", required = true)
-            @RequestParam(name = "ttl") int ttl
+            @RequestParam(name = "ttl") int ttl,
+            @ApiParam(name = "remark", value = "备注")
+            @RequestParam(name = "remark", required = false) String remark
 
     ) {
         ASS.validateFalse(ttl > 0, "ttl不正确");
@@ -108,7 +112,7 @@ public class ServerController implements SpringMonitor {
         ASS.validateStringNotEmpty(configurationKey, "配置key不能为空");
         ASS.validateStringNotEmpty(configurationValue, "配置value不能为空");
 
-        centerService.AddConfiguration(configurationKey, configurationValue, type, status, ttl);
+        centerService.AddConfiguration(configurationKey, configurationValue, type, status, ttl, remark);
 
         return ResponseData.ok(null);
     }
