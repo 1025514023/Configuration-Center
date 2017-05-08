@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
     <meta name="renderer" content="webkit">
-    <title>后台管理中心-新增配置</title>
+    <title>配置中心-新增配置</title>
     <link rel="stylesheet" href="css/pintuer.css">
     <link rel="stylesheet" href="css/admin.css">
     <script src="js/jquery.js"></script>
@@ -21,6 +21,8 @@
         var ttl = $("#ttl").val();
         $.ajax({
             type: "post",
+            url: "/server/AddConfiguration",
+            async: false,
             data: {
                 "configurationKey": configurationKey,
                 "configurationValue": configurationValue,
@@ -28,16 +30,14 @@
                 "type": type,
                 "ttl": ttl
             },
-            url: "/server/AddConfiguration",
             success: function (ev) {
                 if (ev.code == 200) {
                     alert("添加成功!");
-                    window
                 } else {
                     alert(ev.message);
                 }
-            },
-            error: function (ex) {
+            }
+            , error: function (ex) {
                 alert("系统内部错误!");
             }
 

@@ -12,70 +12,6 @@
     <script src="../center/js/pintuer.js"></script>
 </head>
 <body>
-
-<script>
-    /*var data;
-    $(document).ready(function () {
-        $.ajax({
-            type: "post",
-            url: "/server/getAllConfiguration",
-            success: function (ev) {
-                if (ev.code == 200) {
-                    data = ev.data;
-                } else {
-                    alert(ev.message);
-                }
-            }
-        });
-    })*/
-</script>
-
-
-<form>
-    <div class="panel admin-panel">
-        <div class="panel-head"><strong class="icon-reorder"> 配置管理</strong></div>
-        <div class="padding border-bottom">
-            <ul class="search">
-                <li>
-                    <button type="button" class="button border-green" id="checkall"><span class="icon-check"></span> 全选
-                    </button>
-                    <button type="submit" class="button border-red"><span class="icon-trash-o"></span> 批量删除</button>
-                </li>
-            </ul>
-        </div>
-        <table class="table table-hover text-center">
-            <tr>
-                <th width="150">ID</th>
-                <th>最后更新时间</th>
-                <th>配置Key</th>
-                <th>配置Value</th>
-                <th>配置类型</th>
-                <th>状态</th>
-                <th>TTL</th>
-                <th>操作</th>
-            </tr>
-        <#list data as item>
-            <tr>
-                <td><input type="checkbox" name="id[]" value="1"/>${item.id?substring(10,16)}</td>
-                <td>${item.utime}</td>
-                <td>${item.configurationKey}</td>
-                <td>${item.configurationValue}</td>
-                <td>${item.type}</td>
-                <td>${item.status}</td>
-                <td>${item.ttl}</td>
-                <td>
-                    <div class="button-group"><a class="button border-red" href="javascript:void(0)"
-                                                 onclick="return del('${item.id}')"><span class="icon-trash-o"></span> 删除</a>
-                    </div>
-                </td>
-            </tr>
-        </#list>
-            <!--tr>
-              <td colspan="8"><div class="pagelist"> <a href="">上一页</a> <span class="current">1</span><a href="">2</a><a href="">3</a><a href="">下一页</a><a href="">尾页</a> </div></td>
-            </tr-->
-        </table>
-    </div>
-</form>
 <script>
 
     function del(id) {
@@ -94,7 +30,7 @@
         }
     }
 
-    $("#checkall").click(function () {
+    /*("#checkall").click(function () {
         $("input[name='id[]']").each(function () {
             if (this.checked) {
                 this.checked = false;
@@ -120,8 +56,55 @@
             alert("请选择您要删除的内容!");
             return false;
         }
-    }
+    }*/
 
 </script>
+
+<form>
+    <div class="panel admin-panel">
+        <div class="panel-head"><strong class="icon-reorder"> 配置管理</strong></div>
+        <!--div class="padding border-bottom">
+            <ul class="search">
+                <li>
+                    <button type="button" class="button border-green" id="checkall"><span class="icon-check"></span> 全选
+                    </button>
+                    <button type="submit" class="button border-red"><span class="icon-trash-o"></span> 批量删除</button>
+                </li>
+            </ul>
+        </div-->
+        <table class="table table-hover text-center">
+            <tr>
+                <th width="150">ID</th>
+                <th>最后更新时间</th>
+                <th>配置Key</th>
+                <th>配置Value</th>
+                <th>配置类型</th>
+                <th>状态</th>
+                <th>TTL</th>
+                <th>操作</th>
+            </tr>
+        <#list data as item>
+            <tr>
+                <td><!--input type="checkbox" name="id[]" value="1"/-->${item.id?substring(10,16)}</td>
+                <td>${item.utime}</td>
+                <td>${item.configurationKey}</td>
+                <td>${item.configurationValue}</td>
+                <td>${item.type}</td>
+                <td>${item.status}</td>
+                <td>${item.ttl}</td>
+                <td>
+                    <div class="button-group"><a class="button border-red" href="javascript:void(0)"
+                                                 onclick="return del('${item.id}')"><span class="icon-trash-o"></span> 删除</a>
+                    </div>
+                </td>
+            </tr>
+        </#list>
+            <!--tr>
+              <td colspan="8"><div class="pagelist"> <a href="">上一页</a> <span class="current">1</span><a href="">2</a><a href="">3</a><a href="">下一页</a><a href="">尾页</a> </div></td>
+            </tr-->
+        </table>
+    </div>
+</form>
+
 </body>
 </html>
