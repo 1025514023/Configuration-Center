@@ -5,7 +5,7 @@ MySQL+Docker+Druid+SpringBoot+Gradle+Quartz
 
 1.MySQL用于持久化配置数据
 
-# 2.Server在配置数据时会同时分发至ZK-Node/MySQL，ZK在Client会注册Watcher，一旦通知更新，则刷新Client端KV缓存
+//2.Server在配置数据时会同时分发至ZK-Node/MySQL，ZK在Client会注册Watcher，一旦通知更新，则刷新Client端KV缓存
 
 3.Clinet根据领域模型中TTL会定时使用Quartz 轮询数据库更新数据
 
